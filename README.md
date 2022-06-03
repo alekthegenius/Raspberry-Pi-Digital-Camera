@@ -2,3 +2,20 @@
 Software to turn a Raspberry Pi into a Digital Camera
 
 In this repository, there are three files, "gui.py", "startCam.sh", and "Cam.conf". The "gui.py" is a Python App for taking pictures and videos, "startCam.sh" is a program to start the "gui.py", and lastly, "Cam.conf" is a script that autostarts the "startCam.sh" program on boot, which in turn starts "gui.py".
+
+Below is a list of all the modules that you will need to install:
+
+- hyperpixel2r (Already installed)
+picamera (Install with PIP)
+tkinter * (Install with PIP)
+tkinter ttk (Already Installed with Tkinter)
+tkinter.font (Already Installed with Tkinter)
+subprocess (Install with PIP)
+datetime (Install with PIP)
+tkinter (Already Installed with Tkinter)
+fnmatch (Install with PIP)
+shutil (Install with PIP)
+time (Installed by default)
+glob (Install with PIP)
+sys (Installed by default)
+os (Installed by default)
