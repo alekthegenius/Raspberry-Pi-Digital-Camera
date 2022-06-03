@@ -19,3 +19,15 @@ Below is a list of all the modules that you will need to install:
 - glob (Install with PIP)
 - sys (Installed by default)
 - os (Installed by default)
+
+First, download the file "gui.py" below, into a folder titled App in the documents folder of the Pi:
+
+**~/home/pi/Documents/App/**
+
+Once you have saved the python file to your Pi, add the file labeled "startCam.sh" below to the pi directory on the Raspberry Pi:
+
+**~/home/pi/**
+
+Lastly, add the "Cam.conf" file to the init directory located in etc:
+
+**~/etc/init/**
