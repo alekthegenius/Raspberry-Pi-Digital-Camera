@@ -674,7 +674,7 @@ Now you will be presented with 8 menu options, select option 3, ```Install a Per
 
 Once you are done with the wifi configuration, exit the script, then reboot the Pi to activate your Ad-Hoc network.
 
-### Conclusion
+## Conclusion
 
 After reading this Instructable, you should now hopefully be provided with enough knowledge to build your camera.
 
