@@ -1,10 +1,3 @@
-<header>
-  <h1>Raspberry-Pi-Digital-Camera</h1>
-  <p>Software to turn a Raspberry Pi into a Digital Camera</p>
-  <p class="view"><a href="https://github.com/alekthegenius/Raspberry-Pi-Digital-Camera/">View the Project on GitHub <small>alekthegenius/Raspberry-Pi-Digital-Camera</small></a></p>
-  <p class="view"><a href="https://alekthegenius.github.io"> Return to Main Page</a></p>
-</header>
-
 ## Introduction
 
 I have always had a passion for photography, and so in this instructable, I will describe how I created my own Raspberry Pi Digital Camera.
