@@ -1,4 +1,4 @@
-# Raspberry-Pi-Digital-Camera
+# Raspberry Pi Digital Camera
 ### Software to turn a Raspberry Pi into a Digital Camera
 
 *Used with Raspberry Pi Zero W, Hyperpixel 2.1" Round Display, and Raspberry Pi HQ Camera Module.*
