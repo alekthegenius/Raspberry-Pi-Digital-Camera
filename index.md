@@ -141,15 +141,21 @@ My Github repository contains all of the files you need.
 
 First, download the file "gui.py" below, into a folder titled "App" in the documents folder of the Pi:
 
-`~/home/pi/Documents/App/`
+```
+~/home/pi/Documents/App/
+```
 
 Once you have saved the python file to your Pi, add the file labeled "startCam.sh" below to the pi directory on the Raspberry Pi:
 
-```~/home/pi/```
+```
+~/home/pi/
+```
 
 Lastly, add the "Cam.conf" file to the init directory located in etc:
 
-```~/etc/init/```
+```
+~/etc/init/
+```
 
 Reboot your Pi, and you should now have a working camera!
 
