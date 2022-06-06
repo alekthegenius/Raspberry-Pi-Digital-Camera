@@ -682,4 +682,4 @@ Because I used a Raspberry Pi Zero W, I encountered memory allocation errors whe
 
 Now, sit back, relax, and enjoy snapping photos with your own DIY Digital Camera.
 
-####If you find any bugs, please post them in the issues section of the repository!
+###### If you find any bugs, please post them in the issues section of the repository!
