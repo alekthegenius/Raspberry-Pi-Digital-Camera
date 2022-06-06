@@ -627,3 +627,53 @@ except:
     os.execv(sys.executable, ['python3'] + sys.argv)
 ```
 This runs the main loop, and restarts the script in case of any errors.
+
+## Navigating the Software
+
+Once you first boot up your Pi, you will be greeted by the main menu of my camera app. From there, you can enter video or photo mode or manually change the settings of your camera's resolution, exposure, shutter speed, etc.
+
+You can also select the options menu, which allows you to format the Raspberry Pi's desktop, exit the camera app, and view information about your storage.
+
+Now, let's talk about how to operate the different modes, photo, and video.
+
+When you enter photo mode, an overlay of the camera will pop up in whatever resolution you selected. To take a photo, simply, click anywhere in the bottom half of the screen (the overlay will go away for a few milliseconds, once you take a photo). If you wish to return back to the main menu, tap the very top of the screen (that is where the button to return back to the main menu is located), and you will be exited from the photo mode.
+
+Taking videos is slightly different. When you enter video mode, you will once again see the camera's overlay on the screen, but this time, it's translucent. A translucent overlay means that a video is not currently recording, while a solid overlay means that a video is recording. To start recording, tap the bottom half of the display. To stop recording is the same process, just click the bottom half of the screen, and the overlay will become translucent again. (Important, do not exit video mode while recording!)
+
+To manually change the camera's settings, simply tap on a combo box, and select the desired setting.
+
+## Create an Ad-Hoc WIFI Network
+
+When using your camera, you might take it to places where wifi is not accessible. And so, while not mandatory, in this step, I will show you how to create an Ad-Hoc Network using this script: [https://www.raspberryconnect.com/images/hsinstaller/Autohotspot-Setup.tar.xz](https://www.raspberryconnect.com/images/hsinstaller/Autohotspot-Setup.tar.xz)
+
+For full details visit: [https://www.raspberryconnect.com/projects/65-raspberrypi-hotspot-accesspoints/183-raspberry-pi-automatic-hotspot-and-static-hotspot-installer](https://www.raspberryconnect.com/projects/65-raspberrypi-hotspot-accesspoints/183-raspberry-pi-automatic-hotspot-and-static-hotspot-installer)
+
+First, download the installer with this command:
+```
+curl "https://www.raspberryconnect.com/images/hsinstaller/Autohotspot-Setup.tar.xz" -o AutoHotspot-Setup.tar.xz
+```
+Next extract the contents of the file using this command:
+```
+tar -xvJf AutoHotspot-Setup.tar.xz
+```
+Now, go into the Autohotspot directory with the cd command:
+```
+cd Autohotspot
+```
+Lastly, run the Autohotspot script with this command:
+```
+sudo ./autohotspot-setup.sh
+```
+Now you will be presented with 8 menu options, select option 3, ```Install a Permanent Access Point with eth0 access for connected devices```. Lastly, change the wifi name and password using option 7.
+
+Once you are done with the wifi configuration, exit the script, then reboot the Pi to activate your Ad-Hoc network.
+
+### Conclusion
+
+After reading this Instructable, you should now hopefully be provided with enough knowledge to build your camera.
+
+Because I used a Raspberry Pi Zero W, I encountered memory allocation errors when trying to use the max resolution of the camera, I believe a possible solution may be to upgrade to a Pi Zero 2.
+
+Now, sit back, relax, and enjoy snapping photos with your own DIY Digital Camera.
+
+####If you find any bugs, please post them in the issues section of the repository!
