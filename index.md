@@ -9,7 +9,7 @@ I began creating this digital camera with 3 objectives:
 * To have full control over the camera settings, ISO, Shutter Speed, etc.
 To fulfill my objectives, I first designed the camera case to be round, which reduces the size and weight of the camera, while also giving it a sleek, modern look. Using Python 3 and Tkinter, I also programmed an app to allow for full manual control over the camera settings and features.
 
-In this instructable, I will outline the materials used, the design process, the steps to follow, as well as some improvements for the future.
+In this project, I will outline the materials used, the design process, the steps to follow, as well as some improvements for the future.
 
 **Let's dive in!**
 
