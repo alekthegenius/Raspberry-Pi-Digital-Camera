@@ -678,7 +678,7 @@ Once you are done with the wifi configuration, exit the script, then reboot the 
 
 After reading this Instructable, you should now hopefully be provided with enough knowledge to build your camera.
 
-Because I used a Raspberry Pi Zero W, I encountered memory allocation errors when trying to use the max resolution of the camera, I believe a possible solution may be to upgrade to a Pi Zero 2.
+Because the Raspberry Pi Zero W default GPU memory is 128MB, I encountered memory allocation errors when trying to use the max resolution of the camera, 4056 x 3040 pixels—so using the command sudo raspi-config I set the GPU memory to 256MB under the Advanced Options, which fixed the problem. View this answer for details: [https://raspberrypi.stackexchange.com/a/60389](https://raspberrypi.stackexchange.com/a/60389)
 
 Now, sit back, relax, and enjoy snapping photos with your own DIY Digital Camera.
 
