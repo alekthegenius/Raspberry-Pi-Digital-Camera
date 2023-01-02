@@ -35,3 +35,7 @@ Lastly, add the "Cam.conf" file to the init directory located in etc:
 `~/etc/init/`
 
 Reboot your Pi, and you should now have a working camera!
+
+
+Full Instructions: https://alekthegenius.github.io/Raspberry-Pi-Digital-Camera/
+Instructable: https://www.instructables.com/Raspberry-Pi-Digital-Camera/
