@@ -1,6 +1,6 @@
 """
 
-gui.py is written by alekthegenius, Copyright ©2022
+gui.py is written by alekthegenius, Copyright ©2022-Present
 
 """
 #Importing Modules
