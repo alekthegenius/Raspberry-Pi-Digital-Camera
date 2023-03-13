@@ -1,6 +1,8 @@
+<img src="https://user-images.githubusercontent.com/106783234/224785482-4ed9fd28-42b0-4523-99ee-b58e09ab2cbc.jpg" width="500px">
+
 # Raspberry Pi Digital Camera
 ### Software to turn a Raspberry Pi into a Digital Camera
-
+#### Instructable: https://www.instructables.com/Raspberry-Pi-Digital-Camera/
 *Used with Raspberry Pi Zero W, Hyperpixel 2.1" Round Display, and Raspberry Pi HQ Camera Module.*
 
 In this repository, there are three files found in the "code" folder, "gui.py", "startCam.sh", and "Cam.conf". The "gui.py" is a Python App for taking pictures and videos, "startCam.sh" is a program to start the "gui.py", and lastly, "Cam.conf" is a script that autostarts the "startCam.sh" program on boot, which in turn starts "gui.py".
@@ -37,5 +39,3 @@ Lastly, add the "Cam.conf" file to the init directory located in etc:
 Reboot your Pi, and you should now have a working camera!
 
 
-Full Instructions: https://alekthegenius.github.io/Raspberry-Pi-Digital-Camera/
-Instructable: https://www.instructables.com/Raspberry-Pi-Digital-Camera/
