@@ -1,6 +1,6 @@
 ## Introduction
 
-I have always had a passion for photography, and so in this instructable, I will describe how I created my own Raspberry Pi Digital Camera.
+I have always had a passion for photography, and so here is a guide for the code of my Raspberry Pi Digital Camera.
 
 I began creating this digital camera with 3 objectives:
 
